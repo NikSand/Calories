@@ -25,13 +25,13 @@ internal class Program
         {
            Console.WriteLine("Введите ваш вес:");
            double weight = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine();
-
-			Console.WriteLine("Введите ваш рост:");
+           Console.WriteLine();
+            
+            Console.WriteLine("Введите ваш рост:");
 			double height = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine();
-
-			Console.WriteLine("Введите ваш возраст:\n");
+            
+            Console.WriteLine("Введите ваш возраст:\n");
 			int age = Convert.ToInt32 (Console.ReadLine());
             Console.WriteLine();
 
